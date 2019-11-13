@@ -1,0 +1,299 @@
+body, footer, h1, h2, h3, h4, h5, p, ul, li{
+	margin: 0;
+	padding: 0;
+}
+body{
+    background-image: url('img/main_tastypattern.jpg');
+    background-attachment: fixed;
+}
+#wrapper{
+	background-color: rgba(108, 83, 207, 0.2);
+	padding: 20px 0 0;
+	box-shadow: inset 8px 8px 10px white, inset -8px 8px 10px white, inset 8px -8px 10px white, inset -8px -8px 10px white;
+}
+header{
+	background: rgb(252, 252, 252);
+	box-shadow: 0px 10px 10px white, inset 8px 8px 10px #d1c62b, inset -8px 8px 10px #d1c62b, inset 8px -8px 10px #d1c62b, inset -8px -8px 10px #d1c62b;
+}
+#logo{
+	color: rgb(223, 138, 27);
+	font-size: 2.5rem;
+	text-align: center;
+	padding: 1.5rem 0;
+	font-family: 'Lucida Calligraphy', sans-serif;
+	text-shadow: 3px 3px 5px grey, -3px -3px 5px black;
+}
+#content{
+	padding: 3rem 1.5rem;
+	margin-left: 23%;
+}
+#right{
+	width: 20%;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	font-family: cursive;
+	float: left;
+	padding: 3rem 1.5rem;
+}
+nav li{
+	text-align: center;
+	list-style: none;
+	text-decoration: none;
+	background-color: #800040;
+	font-size: 2rem;
+	line-height: 2.2rem;
+	color: white;
+	padding: 1rem;
+	cursor: pointer;
+	border-radius: 3px;
+	text-shadow: 1px 1px 1px white;
+	box-shadow: -3px 3px 5px black, 3px -3px 5px black, inset 2px 2px 5px white, inset -2px -2px 5px white;
+    transition: all 2s;
+}
+#text{
+	margin-top: 3rem;
+	padding: 1rem;
+	background-color: rgb(107, 60, 7);
+	color: white;
+}
+.active{
+	background-color: #0080C0;
+    box-shadow: inset -2px -2px 5px black, inset 2px 2px 5px black,inset 5px -5px 15px black, inset -5px 5px 15px black;
+}
+#border h3{
+	width: 97%;
+	margin: 0 auto;
+	background: #660000 repeat;
+	text-align: center;
+	padding: 0.5rem;
+	color: #FFFFFF;
+	font-size: 2rem;
+	border-radius: 1rem;
+}
+#image p{
+	width: 85%;
+	margin: 0 auto;
+	background: #7C4F43;
+	padding: 1rem 2rem;
+	color: #FFFFFF;
+	font-size: 1.2rem;
+	box-sizing: content-box;
+	box-shadow: 0px 5px 15px #660000, inset 0px 10px 18px white;
+}
+#mainProduct h3{
+	margin: 1rem 0;
+	text-align: center;
+	color: rgb(67, 22, 230);
+	font-size: 2rem;
+}
+#mainProduct p, .text p{
+	text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+	padding: 1.5rem;
+	font-size: 1.3rem;
+	margin-bottom: 1.5rem;
+	text-shadow: 1px 1px 3px white;
+	box-shadow: 5px 5px 5px white, -5px 5px 5px white, 5px -5px 5px white, -5px -5px 5px white, inset 5px 5px 10px #1e2ace, inset -5px -5px 10px #7aa825;
+}
+#photoMainProduct{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 1rem;
+}
+#main img{
+	width: 48%;
+	box-shadow: 6px 0px 3px black, -6px 0px 3px black; 
+}
+#main img:nth-child(2n) {
+	margin-right: 0;
+}
+#main, #cakes, #gingerbread, #other, #order{
+	font-family: cursive;
+}
+#cakes, #gingerbread, #other, #order, #hideCakes, #hideGingerbread, #hideOther, #moreCakes, #moreGingerbread, #moreOther{
+    display: none;
+}
+#cakes h2, #gingerbread h2, #other h2, #order h2{
+	color: rgb(212, 27, 14);
+}
+#cakes h2, #gingerbread h2, #other h2, #contacts h2, #order h2{
+	text-align: center;
+	margin-bottom: 1rem;
+	font-size: 2.3rem;
+}
+.text p{
+	text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+	padding: 1.5rem;
+	font-size: 1.3rem;
+	margin-bottom: 1.5rem;
+	text-shadow: 1px 1px 3px white;
+	box-shadow: 5px 5px 5px white, -5px 5px 5px white, 5px -5px 5px white, -5px -5px 5px white, inset 5px 5px 10px #1e2ace, inset -5px -5px 10px #7aa825;
+}
+#cakes ul, #gingerbread ul, #other ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+#cakes li, #gingerbread li, #other li{
+	width: 24%;
+	margin: 0 1.1% 2% 0;
+	list-style: none;
+	background-color: white;
+	text-align: center;
+	border: 1px solid grey;
+	box-shadow: 2px 0px 3px black, -2px 0px 3px black;
+}
+#cakes li:nth-child(4n), #gingerbread li:nth-child(4n), #other li:nth-child(4n){
+	margin-right: 0;
+}
+#cakes h4{
+	color: rgb(224, 30, 72);
+	padding: 0.5rem;
+	font-size: 1.4rem;
+}
+a.orderProduct{
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	font-size: 2rem;
+	padding: 0.5rem 0;
+	color: white;
+	text-shadow: 1px 1px 2px white;
+	background-color: rgb(151, 63, 63);
+}
+#cakes a:hover, #gingerbread a:hover, #other a:hover{
+	text-shadow: -1px -1px 2px white;
+	background-color: rgb(32, 80, 129);
+}
+.price{
+	font-size: 1.3rem;
+	color: lightseagreen;
+	line-height: 3rem;
+}
+#cakes img, #gingerbread img, #other img{
+	width: 100%;
+	height: 20rem;
+}
+#cakes img:hover, #gingerbread img:hover, #other img:hover{
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+}
+#order{
+	background: rgb(248, 246, 244);
+	text-align: center;
+	padding: 1rem 0 2rem;
+}
+.inputCakes, .inputGingerbread, .inputOther{
+	width: 5%;
+	outline: none;
+	font-size: 1.6rem;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 1rem;
+	padding: 0.5rem;
+	cursor: pointer;
+	text-shadow: 1px 1px 3px white, -1px -1px 3px white;
+	background-color: #800040;
+	box-shadow: inset 2px 2px 5px black, inset -2px -2px 5px black, inset -2px 2px 5px black, inset 2px -2px 5px black;
+}
+#cakes p, #gingerbread p, #other p{
+	text-align: center;
+}
+footer{
+	background: #4b0000;
+	padding: 1.5rem;
+	box-shadow: inset 5px 5px 15px white, inset -5px -5px 15px white, inset -5px 5px 15px white, inset 5px -5px 15px white;
+}
+footer .contactsText{
+	width: 60%;
+	background: #7C4F43;
+	color: white;
+	padding: 1rem;
+	font-size: 1.2rem;
+	box-shadow: inset 0px 5px 15px white, inset 0px -5px 15px white;
+	margin-right: 1rem;
+	float: left;
+}
+footer .contacts{
+	margin-left: 65%;
+	background: #7C4F43;
+	padding: 1rem 2rem;
+	box-shadow: inset 0px 5px 15px white, inset 0px -5px 15px white;
+}
+footer img{
+	width: 2rem;
+	height: 2rem;
+	margin-right: 0.5rem;
+}
+#contacts h2{
+	color: white;
+}
+.contacts ul{
+	list-style: none;
+}
+.contacts li{
+	display: flex;
+	margin-bottom: 1rem;
+}
+.contacts p{
+	line-height: 1.7rem;
+	font-size: 2.5rem;
+	font-family: 'Lucida Calligraphy', sans-serif;
+	color: white;
+}
+.clearfix{
+	clear: both;
+}
+.input{
+	width: 40%;
+	height: 2rem;
+	text-transform: uppercase;
+	box-shadow: 1px 1px 3px rgb(75, 74, 153), -1px -1px 3px rgb(75, 74, 153), 1px -1px 3px rgb(75, 74, 153), -1px 1px 3px rgb(75, 74, 153);
+  }
+  textarea{
+	  width: 40%;
+	  min-height: 5rem;
+  }
+@media screen and (min-width: 800px) and (max-width: 1560px){
+	html{
+		font-size: 12px;
+	}
+	#cakes li, #gingerbread li, #other li{
+		width: 23%;
+		margin: 0 2% 2% 0;
+	}
+	.contacts p{
+		font-size: 1.5rem;
+	}
+}
+@media screen and (max-width: 800px){
+	html{
+		font-size: 14px;
+	}
+	#right{
+		width: 95%;
+	}
+	#content{
+		width: 95%;
+		margin: 0;
+	}
+	#main{
+		float: inline-start;
+	}
+	#cakes li, #gingerbread li, #other li{
+		width: 48%;
+		margin: 0 3% 2% 0;
+	}
+	#cakes ul, #gingerbread ul, #other ul{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#cakes li:nth-child(2n), #gingerbread li:nth-child(2n), #other li:nth-child(2n){
+		margin-right: 0;
+	}
+}
