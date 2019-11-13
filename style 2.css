@@ -51,7 +51,7 @@ nav li{
 	box-shadow: -3px 3px 5px black, 3px -3px 5px black, inset 2px 2px 5px white, inset -2px -2px 5px white;
     transition: all 2s;
 }
-#text{
+#recipe{
 	margin-top: 3rem;
 	padding: 1rem;
 	background-color: rgb(107, 60, 7);
