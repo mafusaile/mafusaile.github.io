@@ -61,7 +61,7 @@ nav li{
 	background-color: #0080C0;
     box-shadow: inset -2px -2px 5px black, inset 2px 2px 5px black,inset 5px -5px 15px black, inset -5px 5px 15px black;
 }
-#border h3{
+#sign h3{
 	width: 97%;
 	margin: 0 auto;
 	background: #660000 repeat;
@@ -71,7 +71,7 @@ nav li{
 	font-size: 2rem;
 	border-radius: 1rem;
 }
-#image p{
+#sign p{
 	width: 85%;
 	margin: 0 auto;
 	background: #7C4F43;
@@ -281,9 +281,6 @@ footer img{
 	#content{
 		width: 95%;
 		margin: 0;
-	}
-	#main{
-		float: inline-start;
 	}
 	#cakes li, #gingerbread li, #other li{
 		width: 48%;
