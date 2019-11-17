@@ -24,7 +24,6 @@ header{
 	text-shadow: 3px 3px 5px grey, -3px -3px 5px black;
 }
 #content{
-	padding: 3rem 1.5rem;
 	margin-left: 23%;
 }
 #right{
@@ -111,6 +110,7 @@ nav li{
 }
 #main, #cakes, #gingerbread, #other, #order{
 	font-family: cursive;
+	padding: 3rem 1.5rem;
 }
 #cakes, #gingerbread, #other, #order, #hideCakes, #hideGingerbread, #hideOther, #moreCakes, #moreGingerbread, #moreOther{
     display: none;
