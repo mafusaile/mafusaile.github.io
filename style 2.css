@@ -273,7 +273,7 @@ footer img{
 }
 @media screen and (min-width: 400px) and (max-width: 800px){
 	html{
-		font-size: 10px;
+		font-size: 8px;
 	}
 	#right{
 		width: 95%;
@@ -292,5 +292,8 @@ footer img{
 	}
 	#cakes li:nth-child(2n), #gingerbread li:nth-child(2n), #other li:nth-child(2n){
 		margin-right: 0;
+	}
+	#cakes img, #gingerbread img, #other img{
+		height: 30rem;
 	}
 }
