@@ -177,11 +177,11 @@ a.orderProduct{
 	height: 20rem;
 }
 #cakes img:hover, #gingerbread img:hover, #other img:hover{
-	transform: scale(3);
-	-webkit-transform: scale(3);
-	-moz-transform: scale(3);
-	-o-transform: scale(3);
-	-ms-transform: scale(3);
+	transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-ms-transform: scale(1.5);
 }
 #order{
 	background: rgb(248, 246, 244);
@@ -271,9 +271,9 @@ footer img{
 		font-size: 1.5rem;
 	}
 }
-@media screen and (min-width: 0px) and (max-width: 800px){
+@media screen and (min-width: 400px) and (max-width: 800px){
 	html{
-		font-size: 10px;
+		font-size: 12px;
 	}
 	#right{
 		width: 95%;
