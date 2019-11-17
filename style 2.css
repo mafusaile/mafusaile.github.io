@@ -177,11 +177,11 @@ a.orderProduct{
 	height: 20rem;
 }
 #cakes img:hover, #gingerbread img:hover, #other img:hover{
-	transform: scale(1.2);
-	-webkit-transform: scale(1.2);
-	-moz-transform: scale(1.2);
-	-o-transform: scale(1.2);
-	-ms-transform: scale(1.2);
+	transform: scale(2);
+	-webkit-transform: scale(2);
+	-moz-transform: scale(2);
+	-o-transform: scale(2);
+	-ms-transform: scale(2);
 }
 #order{
 	background: rgb(248, 246, 244);
