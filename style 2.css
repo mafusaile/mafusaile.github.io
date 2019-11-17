@@ -270,7 +270,7 @@ footer img{
 		font-size: 1.5rem;
 	}
 }
-@media screen and (min-width: 400px) and (max-width: 800px){
+@media screen and (min-width: 0px) and (max-width: 800px){
 	html{
 		font-size: 8px;
 	}
