@@ -104,7 +104,7 @@ nav li{
 }
 #main img{
 	width: 48%;
-	box-shadow: 3px 3px 3px black, -3px 3px 3px black; 
+	box-shadow: 2px 2px 2px black, -2px 2px 2px black, 2px -2px 2px black, -2px -2px 2px black; 
 }
 #main img:nth-child(2n) {
 	margin-right: 0;
