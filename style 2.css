@@ -279,7 +279,7 @@ footer img{
 		width: 100%;
 	}
 	#recipe{
-		width: 100%;
+		width: 97%;
 		margin: 0 auto;
 	}
 	#content{
@@ -287,7 +287,7 @@ footer img{
 		margin: 0;
 	}
 	#cakes li, #gingerbread li, #other li{
-		width: 48%;
+		width: 47%;
 		margin: 0 3% 2% 0;
 	}
 	#cakes li:nth-child(2n), #gingerbread li:nth-child(2n), #other li:nth-child(2n){
