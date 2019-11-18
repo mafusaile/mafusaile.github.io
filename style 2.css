@@ -138,6 +138,7 @@ nav li{
 #cakes li, #gingerbread li, #other li{
 	width: 24%;
 	margin: 0 1.1% 2% 0;
+	font-size: 1.2rem;
 	list-style: none;
 	background-color: white;
 	text-align: center;
@@ -241,7 +242,7 @@ footer img{
 }
 .contacts p{
 	line-height: 1.7rem;
-	font-size: 2.5rem;
+	font-size: 1.5rem;
 	font-family: 'Lucida Calligraphy', sans-serif;
 	color: white;
 }
@@ -270,7 +271,7 @@ footer img{
 		font-size: 1.5rem;
 	}
 }
-@media screen and (min-width: 0px) and (max-width: 800px){
+@media screen and (min-width: 0) and (max-width: 800px){
 	html{
 		font-size: 8px;
 	}
@@ -288,10 +289,6 @@ footer img{
 	#cakes li, #gingerbread li, #other li{
 		width: 48%;
 		margin: 0 3% 2% 0;
-	}
-	#cakes ul, #gingerbread ul, #other ul{
-		display: flex;
-		flex-wrap: wrap;
 	}
 	#cakes li:nth-child(2n), #gingerbread li:nth-child(2n), #other li:nth-child(2n){
 		margin-right: 0;
