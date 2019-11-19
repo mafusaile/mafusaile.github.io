@@ -103,6 +103,7 @@ nav li{
 }
 #main img{
 	width: 48%;
+	height: 20rem;
 	box-shadow: 2px 2px 2px black, -2px 2px 2px black, 2px -2px 2px black, -2px -2px 2px black; 
 }
 #main img:nth-child(2n) {
@@ -280,10 +281,10 @@ footer img{
 	}
 	#recipe{
 		width: 95%;
-		margin: 0 auto;
+		margin: 1rem auto;
 	}
 	#content{
-		width: 97%;
+		width: 95%;
 		margin: 0;
 	}
 	#cakes li, #gingerbread li, #other li{
