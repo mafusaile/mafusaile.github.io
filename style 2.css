@@ -8,7 +8,7 @@ body{
 }
 #wrapper{
 	background-color: rgba(108, 83, 207, 0.2);
-	padding: 20px 0 0;
+	padding: 2rem 0 0;
 	box-shadow: inset 8px 8px 10px white, inset -8px 8px 10px white, inset 8px -8px 10px white, inset -8px -8px 10px white;
 }
 header{
@@ -23,10 +23,6 @@ header{
 	font-family: 'Lucida Calligraphy', sans-serif;
 	text-shadow: 3px 3px 5px grey, -3px -3px 5px black;
 }
-#content{
-	margin-left: 23%;
-	padding: 3rem 1.5rem;
-}
 #right{
 	width: 20%;
 	list-style: none;
@@ -34,6 +30,11 @@ header{
 	flex-direction: column;
 	font-family: cursive;
 	float: left;
+    padding: 3rem 1.5rem;
+}
+#content{
+	margin-left: 23%;
+	padding: 3rem 1.5rem;
 }
 nav li{
 	text-align: center;
@@ -279,17 +280,18 @@ footer img{
 	}
 	#right{
 		width: 100%;
+		padding: 0;
 	}
 	#recipe{
-		width: 97%;
-		margin: 1rem auto;
+		width: 98%;
+		margin: 2rem auto;
 	}
 	#content{
-		width: 95%;
+		width: 97%;
 		margin: 0;
 	}
 	#cakes li, #gingerbread li, #other li{
-		width: 47%;
+		width: 48%;
 		margin: 0 3% 2% 0;
 	}
 	#cakes li:nth-child(2n), #gingerbread li:nth-child(2n), #other li:nth-child(2n){
