@@ -225,7 +225,7 @@ footer .contactsText{
 	margin-right: 1rem;
 	float: left;
 }
-footer .contacts{
+footer ul{
 	margin-left: 65%;
 	background: #7C4F43;
 	padding: 1rem 2rem;
@@ -239,18 +239,21 @@ footer img{
 #contacts h2{
 	color: white;
 }
-.contacts ul{
+#contacts ul{
 	list-style: none;
-}
-.contacts li{
 	display: flex;
+	flex-wrap: wrap;
+}
+#contacts li{
 	margin-bottom: 1rem;
 }
-.contacts p{
+#contacts li>p{
 	line-height: 1.7rem;
 	font-size: 1.5rem;
 	font-family: 'Lucida Calligraphy', sans-serif;
 	color: white;
+	float: right;
+	margin-right: 1.5rem;
 }
 .clearfix{
 	clear: both;
@@ -306,12 +309,11 @@ footer img{
 	#cakes img, #gingerbread img, #other img{
 		height: 30rem;
 	}
-	footer .contactsText{
-		width: 96%;
-		margin: 0 0 1rem;
+	.contactsText{
+		width: 100%;
+		margin: 0 auto 1rem;
 	}
-	footer .contacts{
-		width: 93%;
-		float: right;
+	#contacts li>p{
+		font-size: 0.8rem;
 	}
 }
